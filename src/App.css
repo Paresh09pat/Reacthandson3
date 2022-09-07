@@ -1,111 +1,53 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  background-color: rgb(168, 229, 240);
 }
 
-body{
-  background-color: aqua;
-  font-family: sans-serif;
+.navBar {
+  background-color: rgb(235, 237, 110);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.Container {
+.label {
+  font-size: 40px;
+  color: rgb(243, 19, 19);
+  text-shadow: 3px 5px 5px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.StudentsHead {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 40px;
-  color: rgb(248, 39, 39);
+  justify-content: space-around;
+  font-size: 20px;
 }
 
-h1 {
-  margin: 40px;
-}
-
-.dept {
-  margin-left: -72px;
-}
-
-.Input_tag {
-  margin-top: 75px;
-  font-size: 30px;
+.AddStudentsButton {
+  border: 2px solid red;
+  background-color: rgb(201, 155, 245);
+  margin-top: 35px;
+  font-size: 20px;
+  color:azure;
+  font-weight: 600;
+  border-radius: 20px;
+  height: 50px;
+  width: 250px;
+  padding: 8px;
+  text-decoration: none;
   text-align: center;
 }
 
-.Submit{
-  margin-left: 200px;
-  margin-top: 100px;
-  height: 50px;
-  width: 220px;
- cursor: pointer;
- border: none;
- border-radius: 10px;
- color: rgb(245, 45, 45);
- background-color:rgb(245, 106, 203) ;
- font-size: 25px;
-}
-
-.Submit:hover{
-  background-color:rgb(123, 44, 234);
-  color: darkturquoise;
-}
-
-input[type="text"],
-input[type="number"] {
-  padding: 5px;
-  width: 350px;
-  font-size: 30px;
-  border-radius: 10px;
-  background-color:rgb(173, 244, 85);
-  border: 2px solid rgb(250, 4, 4);
-}
-
-.Showcontainer {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 80px;
-  border: 2px solid rgb(23, 96, 232);
-  background-color: rgb(155, 236, 33);
-  border-radius: 10px;
-  width: 85vw;
-  height: auto;
-}
-
-.ShowData {
-  margin: 25px;
-  background-color:rgb(30, 237, 168);
-  padding: 15px;
-  font-size: 22px;
-  width: 300px;
-  height: 120px;
-  border: 2px solid;
-  border-radius: 10px;
-  color: darkslategrey;
-
-}
-.Goback {
-  height: 50px;
-  width: 200px;
-  margin-top: 50px;
+.table {
+  text-align: center;
+  background-color: rgb(234, 198, 105);
+  margin-top: 2%;
+  margin-left: 8%;
+  margin-right: 8%;
+  border-radius: 20px;
+  width: 84%;
   font-size: 20px;
-  color: darkslategray;
-  background-color:rgb(164, 158, 158);
-  border: none;
-  border-radius: 10px;
-}
-.Goback:hover{
-  background-color:gold;
-  color: rgb(250, 23, 23);
-  cursor: pointer;
-  
-}
+  padding: 10px;
 
-span {
-  display: flex;
-  justify-content: center;
 }
